@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width:100%;
+}
+
+#titulo{
+    text-align: center;
+    /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 60px;
+    color:#808080;
+    padding-top:100px;
+}
+
+.corpo{
+    width:100%;
+}
+
+
+.linha{
+    margin: 0 auto;
+    width: 810px;
+}
+
+#zero-zero{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#zero-um{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#zero-dois{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#um-zero{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#um-um{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#um-dois{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#dois-zero{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#dois-um{
+    width:250px;
+    height: 100px;
+
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#dois-dois{
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin:5px;
+}
+
+/*----------------------------------ANIMAÇÕES-------------------------------------*/
+
+@keyframes animacao-azul{
+    from{
+        background:white;
+    }
+    to{
+        background: blue;
+    }
+}

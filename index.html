@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jogo da Velha</title>
+
+  <link rel="stylesheet"  href="style.css">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script src="code.js"></script>
+
+
+</head>
+<body>
+<header> <div id="titulo">Um jogo da velha TOP</div></header>
+<br/>
+<br/>
+<br/>
+
+
+
+
+<div class="corpo">  
+      <div class="linha"> <div id='zero-zero' onclick="jogada(0,0,'zero-zero')"></div><div id='zero-um' onclick="jogada(0,1,'zero-um')"></div><div id='zero-dois' onclick="jogada(0,2,'zero-dois')"></div></div>
+      <div class="linha"> <div id='um-zero' onclick="jogada(1,0,'um-zero')"></div><div id='um-um' onclick="jogada(1,1,'um-um')" ></div><div id='um-dois' onclick="jogada(1,2,'um-dois')"></div></div>
+      <div class="linha"> <div id='dois-zero' onclick="jogada(2,0,'dois-zero')"></div><div id='dois-um' onclick="jogada(2,1,'dois-um')"></div><div id='dois-dois' onclick="jogada(2,2,'dois-dois')"></div></div>
+
+
+</div>
+
+</body>
+</html>
